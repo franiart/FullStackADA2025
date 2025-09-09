@@ -4,7 +4,6 @@ Crea una función expresada llamada calcularFactorial que reciba un número
 y devuelva su factorial.
 Fórmula del factorial:
 n! = n × (n - 1) × (n - 2) × ... × 1
-Ejemplo: 5! = 5 × 4 × 3 × 2 × 1 = 120
 */
 
 const prompt = require("prompt-sync")();
