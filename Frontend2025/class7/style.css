@@ -89,21 +89,22 @@ strong {
 }
 
 .principal-title{
-    font-family: 'Phenomena-Bold', sans-serif;
+    font-family: var(--font-bold);
     font-size: 2.5rem;
 }
 
 .back-title{
-    font-family: 'Phenomena-Bold', sans-serif;
+    font-family: var(--font-bold);
     font-size: 2rem;
     margin-top: 20px;
 }
 .principal-paragraph{
-    font-family: 'Phenomena-Bold', sans-serif;
+    font-family: var(--font-light);
+    font-size: 1.2rem;
 }
 
 .back-paragraph{
-    font-family: 'Phenomena-Light', sans-serif;
+    font-family: var(--font-light);
     margin: 0px 15px;
     text-align: left;
 }
