@@ -19,12 +19,12 @@
 
 @font-face {
     font-family: 'Phenomena-Bold';
-    src: url('fonts/Phenomena-Bold.woff2') format('woff2');
+    src: url('/presentation-card/assets/fonts/Phenomena-Bold.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'Phenomena-Light';
-    src: url('fonts/Phenomena-Light.woff2') format('woff2');
+    src: url('/presentation-card/assets/fonts/Phenomena-Light.woff2') format('woff2');
 }
 
 
