@@ -114,10 +114,6 @@ strong {
     transition: transform 0.5s ease;
 }
 
-.card:hover .principal-image {
-    transform: scale(1.05);
-}
-
 .back-card {
     background-color: #202020;
     color: white;
@@ -158,5 +154,5 @@ strong {
 }
 
 .icon:hover {
-    color: rgb(209, 43, 2);
+    color: var(--accent-color)
 }
