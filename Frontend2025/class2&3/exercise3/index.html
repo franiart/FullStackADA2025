@@ -1,0 +1,91 @@
+<!-- Ejercicio 3 - Landing
+🔍 Investigar la etiqueta address
+Crear la estructura HTML de una página personal (sin estilos) usando etiquetas semánticas:
+
+Un encabezado que tengan links de navegación:
+Sobre mí
+Mis Proyectos
+Contactame
+Una sección "Sobre mí" que tenga:
+Nombre
+Párrafo con breve descripción
+Una sección "Mis proyectos" que tenga:
+Título que diga "Mis proyectos"
+4 cards de proyectos con: imagen, título y descripción.
+Una sección "Contacto" que tenga
+Título que diga "Contactame"
+Datos de contacto que incluyan: email, telefono y página de linkedin (los datos no tienen que ser reales).
+Un pie de página que diga:
+Hecho con ❤️
+
+⚠️ Consideraciones:
+
+Analizar qué etiquetas semánticas corresponden en cada caso y cómo debería ser la estructura HTML (la descripción del ejercicio no indica cuál es exactamente).
+Se puede usar lorem ipsum para rellenar los textos.
+Las imágenes puede ser aleatorias (no tienen que estar relacionadas).
+Las imágenes pueden ser con ruta relativa o absoluta.
+Los links de navegación tienen que llegar a las respectivas secciones al ser clickeados.
+Poner clases a todos los elementos.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing</title>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#about-me" class="nav-link">Sobre mí</a></li>
+                <li class="nav-item"><a href="#my-projects" class="nav-link">Mis Proyectos</a></li>
+                <li class="nav-item"><a href="#contact-me" class="nav-link">Contactame</a></li>
+            </ul>
+    </header>
+    <main>
+        <section id="about-me" class="about-me-section">
+            <h1 class="about-me-title">Fran Borges</h1>
+            <p class="about-me-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </section>
+
+        <section id="my-projects" class="my-projects-section">
+            <h2 class="my-projects-title">Mis Proyectos</h2>
+            <div class="projects-container">
+                <article class="project-card">
+                    <img src="https://images.dog.ceo/breeds/setter-english/n02100735_4051.jpg" alt="Proyecto 1" class="project-image">
+                    <h3 class="project-title">Proyecto 1</h3>
+                    <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </article>
+                <article class="project-card">
+                    <img src="https://images.dog.ceo/breeds/retriever-golden/20200814_163629_200814.jpg" alt="Proyecto 2" class="project-image">
+                    <h3 class="project-title">Proyecto 2</h3>
+                    <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </article>
+                <article class="project-card">
+                    <img src="https://images.dog.ceo/breeds/cockapoo/george-bow-tie.jpg" alt="Proyecto 3" class="project-image">
+                    <h3 class="project-title">Proyecto 3</h3>
+                    <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </article>
+                <article class="project-card">
+                    <img src="https://images.dog.ceo/breeds/papillon/n02086910_9710.jpg" alt="Proyecto 4" class="project-image">
+                    <h3 class="project-title">Proyecto 4</h3>
+                    <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </article>
+            </div>
+        </section>
+        <section id="contact-me" class="contact-me-section">
+            <h2 class="contact-me-title">Contactame</h2>
+            <address class="contact-details">
+                <p class="contact-item">Email:</p>
+                <p class="contact-item">Teléfono:</p>
+                <p class="contact-item">LinkedIn:</p>
+            </address>
+        </section>
+    </main>
+    <footer class="page-footer">
+        <p class="footer-text">Hecho con ❤️</p>
+    </footer>
+</body>
+</html>
