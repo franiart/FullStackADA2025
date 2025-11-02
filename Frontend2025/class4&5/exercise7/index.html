@@ -1,0 +1,79 @@
+<!-- 
+07 - Paleta de Colores
+index.html debe tener:
+
+un título h1 que diga: Mis paletas
+
+3 paletas de colores, que consisten en:
+
+un título h2 con el nombre de la paleta (por ejemplo: Moderna)
+una lista desordenada con 5 ítems
+cada ítem debe tener como texto código del color, en el sistema correspondiente (por ejemplo, si es blanco y está en hexadecimal #FFFFFF)
+Poner un tipografía distinta a la default.
+
+Dar a los títulos un tamaño de fuente distinto al default.
+
+Cada ítem debe de tener de color de fondo el color que representa (por ejemplo, si representa el color negro, tener de color de fondo dicho color).
+
+Tener en cuenta el contraste, si el color de fondo es muy oscuro, poner un color de letra claro, y viceversa.
+
+Los colores de la primera paleta deben estar en sistema hexadecimal, los de la segunda en sistema rgb y los de la tercera en sistema hsl.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paleta de Colores</title>
+</head>
+<body>
+    <h1>Mis paletas</h1>
+    <h2>Industrial</h2>
+    <ul>
+        <li class="paleta1" style="background-color: #992f05;">#992f05</li>
+        <li class="paleta1" style="background-color: #2a0f0a;">#2a0f0a</li>
+        <li class="paleta1" style="background-color: #46392d;">#46392d</li>
+        <li class="paleta1" style="background-color: #bf936c;">#bf936c</li>
+        <li class="paleta1" style="background-color: #825f44;">#825f44</li>
+    </ul>
+    <h2>Vibrante</h2>
+    <ul>
+        <li class="paleta2" style="background-color: rgb(255, 0, 0);">rgb(255, 0, 0)</li>
+        <li class="paleta2" style="background-color: rgb(0, 255, 0);">rgb(0, 255, 0)</li>
+        <li class="paleta2" style="background-color: rgb(0, 0, 255);">rgb(0, 0, 255)</li>
+        <li class="paleta2" style="background-color: rgb(255, 255, 0);">rgb(255, 255, 0)</li>
+        <li class="paleta2" style="background-color: rgb(255, 0, 255);">rgb(255, 0, 255)</li>
+    </ul>
+    <h2>Pastel</h2>
+    <ul>
+        <li class="paleta3" style="background-color: hsl(210, 100%, 85%);">hsl(210, 100%, 85%)</li>
+        <li class="paleta3" style="background-color: hsl(330, 100%, 85%);">hsl(330, 100%, 85%)</li>
+        <li class="paleta3" style="background-color: hsl(120, 100%, 85%);">hsl(120, 100%, 85%)</li>
+        <li class="paleta3" style="background-color: hsl(45, 100%, 85%);">hsl(45, 100%, 85%)</li>
+        <li class="paleta3" style="background-color: hsl(270, 100%, 85%);">hsl(270, 100%, 85%)</li>
+    </ul>
+    <style>
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .paleta1 {
+            color: white;
+            padding: 10px;
+            margin: 5px 0;
+        }
+        .paleta2 {
+            color: black;
+            padding: 10px;
+            margin: 5px 0;
+        }
+        .paleta3 {
+            color: black;
+            padding: 10px;
+            margin: 5px 0;
+        }
+    </style>
+
+</body>
+</html>
