@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff3f3;
+}
+
+.notification {
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: rgb(35, 35, 35);
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.notification {
+  /* triangle dimension */
+  --b: 2em; /* base */
+  --h: 1em; /* height */
+  --p: 23%; /* triangle position (0%:top 100%:bottom) */
+
+    padding: 20px 0px 0px 25px;
+    clip-path: polygon(100% 100%,0 100%,0 0,100% 0,
+        100% max(0%  ,var(--p) - var(--b)/2),
+        calc(100% + var(--h)) var(--p),
+        100% min(100%,var(--p) + var(--b)/2));
+        border-image: fill 0 // var(--h)
+                conic-gradient(#fff 0 0);
+    
+}
+
+img {
+    width: 60px;
+    height: auto;
+}
+
+h1{
+    font-size: 1.3rem;
+    margin: 10px 0 10px 0;
+}
+
+p {
+    font-size: .75rem;
+    margin: 10px 0 10px 0;
+}
+
+#log-in{
+    text-decoration: none;
+    color: #3651d9;
+}
+
+button {
+    padding: 10px 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3651d9;
+    color: #fff;
+    font-size: .75rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
