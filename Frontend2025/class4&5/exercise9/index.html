@@ -1,0 +1,93 @@
+<!-- 
+09 - Cuenta Bancaria
+index.html debe tener:
+
+un título h1 que diga: Mi cuenta.
+
+un título h2 que diga: Últimos movimientos.
+
+agregar 5 movimientos, que deben tener:
+
+un título h3 con el nombre de la operación (por ejemplo Depósito, Transferencia, Pago a XXX, etc.
+un elemento p con la fecha de la operación.
+un elemento p con el monto de la operación, con un signo más (+) adelante si ingresó dinero o un signo menos (-) si salió dinero de la cuenta.
+Ejemplo:
+
+Mi cuenta
+Últimos movimientos
+
+Transferencia a Grace
+01/05/2020
+- $1000
+
+
+Cobro de sueldo
+01/05/2020
++ $30000
+Poner un tipografía distinta a la default.
+Dar a los títulos un tamaño de fuente distinto al default.
+Dar a la fecha un tamaño de letra más pequeña y un color gris claro.
+Si el monto es un ingreso, debe tener un color verde, si es una salida, debe tener un color rojo.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuenta Bancaria</title>
+</head>
+<body>
+    <h1>Mi cuenta</h1>
+    <h2>Últimos movimientos</h2>
+    <div class="movimiento">
+        <h3>Transferencia a Grace</h3>
+        <p class="fecha">01/05/2020</p>
+        <p class="monto salida">- $1000</p>
+    </div>
+    <div class="movimiento">
+        <h3>Cobro de sueldo</h3>
+        <p class="fecha">01/05/2020</p>
+        <p class="monto ingreso">+ $30000</p>
+    </div>
+    <div class="movimiento">
+        <h3>Pago de servicios</h3>
+        <p class="fecha">02/05/2020</p>
+        <p class="monto salida">- $1500</p>
+    </div>
+    <div class="movimiento">
+        <h3>Depósito en efectivo</h3>
+        <p class="fecha">03/05/2020</p>
+        <p class="monto ingreso">+ $2000</p>
+    </div>
+    <div class="movimiento">
+        <h3>Compra en supermercado</h3>
+        <p class="fecha">04/05/2020</p>
+        <p class="monto salida">- $500</p>
+    </div>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            font-size: 2.5em;
+        }
+        h2 {
+            font-size: 2em;
+        }
+        h3 {
+            font-size: 1.5em;
+        }
+        .fecha {
+            font-size: 0.9em;
+            color: lightgray;
+        }
+        .monto.ingreso {
+            color: green;
+        }
+        .monto.salida {
+            color: red;
+        }
+    </style>
+</body>
+</html>
