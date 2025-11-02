@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1d1d1d;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main{
+    font-family: poppins, sans-serif;
+    background-color: #3c814e;
+    position:absolute;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+
+#fruit-shop{
+    height: 350px;
+    background-color: #212121;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+    gap: 5px;
+}
+
+p{
+    color: #cbcbcbc4;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+h1{
+    color: #f1f1f1;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.font-blue{
+    color: #89c7f1;
+    font-family: poppins, sans-serif;
+}
+
+button{
+    background-color: #1d1d1d;
+    border: 1px solid #cbcbcb27;
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+}
