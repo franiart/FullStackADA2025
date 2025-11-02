@@ -1,0 +1,92 @@
+<!-- 
+10 - Tareas
+index.html debe tener:
+
+un título h1 que diga: Mis tareas.
+
+un título h2 que diga: Tareas para hoy.
+
+agregar 6 tareas, que deben tener:
+
+un título h3 con la tarea a realizar (por ejemplo Hacer las compras).
+un elemento en línea span con el estado de la tarea: Pendiente, Haciendo, Hecha, Cancelada.
+Ejemplo:
+
+Mis tareas
+Tareas para hoy
+
+Ir al banco
+Cancelada
+
+Preparar parcial
+Haciendo
+
+Pasear al perro
+Hecha
+Poner un tipografía distinta a la default.
+Dar a los títulos un tamaño de fuente distinto al default.
+Dar a la fecha un tamaño de letra más pequeña y un color gris claro.
+Poner a cada estado un color de fondo distinto, siguiendo el siguiente criterio:
+Pendiente: Azul
+Haciendo: Naranja
+Hecha: Verde
+Cancelada: Rojo 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tareas</title>
+</head>
+<body>
+    <h1>Mis tareas.</h1>
+    <h2>Tareas para hoy.</h2>
+    <div>
+        <h3>Ir al banco</h3>
+        <span style="background-color: red;">Cancelada</span>
+    </div>
+    <div>
+        <h3>Preparar parcial</h3>
+        <span style="background-color: orange;">Haciendo</span>
+
+    </div>
+    <div>
+        <h3>Pasear al perro</h3>
+        <span style="background-color: green;">Hecha</span>
+    </div>
+    <div>
+        <h3>Hacer las compras</h3>
+        <span style="background-color: blue;">Pendiente</span>
+    </div>
+    <div>
+        <h3>Limpiar la casa</h3>
+        <span style="background-color: orange;">Haciendo</span>
+    </div>
+    <div>
+        <h3>Estudiar para el examen</h3>
+        <span style="background-color: green;">Hecha</span>
+    </div>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        h2 {
+            font-size: 30px;
+        }
+        h3 {
+            font-size: 24px;
+        }
+        span {
+            font-size: 10px;
+            color: lightgray;
+            padding: 4px 8px;
+            border-radius: 4px;
+        }
+    </style>
+</body>
+</html>
