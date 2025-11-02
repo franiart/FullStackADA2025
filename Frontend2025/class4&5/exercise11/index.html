@@ -1,0 +1,89 @@
+<!--
+11 - Reacciones
+index.html debe tener:
+
+un título h2 que diga: Comentarios.
+
+agregar 5 comentarios, que deben tener:
+
+un título h3 que contenga un link con el nombre de la usuaria (por ejemplo, @adalovelace). El link no debe llevar a ningún lado.
+un elemento p con el momento de publicación del comentario (por ejemplo, Hace 15 minutos).
+un elemento p con lorem ipsum.
+al menos 4 elementos en línea span que consistan en un emoji y un número, indicando la reacción y la cantidad de reacciones (por ejemplo: ❤️ 2 | 👍 4 | 👏 3 | 🔥 5)
+Poner un tipografía distinta a la default.
+
+Dar a los títulos un tamaño de fuente distinto al default.
+
+Dar al nombre de usuaria un color que se distinga (azul/celeste, etc) y sacar el subrayado por default.
+
+Dar a la fecha un tamaño de letra más pequeña y un color gris claro.
+
+Separar los span con espacios y ponerle un color de fondo gris claro.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reacciones</title>
+</head>
+<body>
+    <h2>Comentarios.</h2>
+    <div class="comment">
+        <h3><a href="#">@adalovelace</a></h3>
+        <p class="timestamp">Hace 15 minutos</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <span class="reaction">❤️ 2</span> <span class="reaction">👍 4</span> <span class="reaction">👏 3</span> <span class="reaction">🔥 5</span>
+    </div>
+    <div class="comment">
+        <h3><a href="#">@charlesbabbage</a></h3>
+        <p class="timestamp">Hace 30 minutos</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <span class="reaction">❤️ 5</span> <span class="reaction">👍 2</span> <span class="reaction">👏 4</span> <span class="reaction">🔥 1</span>
+    </div>
+    <div class="comment">
+        <h3><a href="#">@gracehopper</a></h3>
+        <p class="timestamp">Hace 1 hora</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <span class="reaction">❤️ 3</span> <span class="reaction">👍 5</span> <span class="reaction">👏 2</span> <span class="reaction">🔥 4</span>
+    </div>
+    <div class="comment">
+        <h3><a href="#">@alanTuring</a></h3>
+        <p class="timestamp">Hace 2 horas</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <span class="reaction">❤️ 4</span> <span class="reaction">👍 3</span> <span class="reaction">👏 5</span> <span class="reaction">🔥 2</span>
+    </div>
+    <div class="comment">
+        <h3><a href="#">@katherinejohnson</a></h3>
+        <p class="timestamp">Hace 3 horas</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <span class="reaction">❤️ 1</span> <span class="reaction">👍 4</span> <span class="reaction">👏 3</span> <span class="reaction">🔥 5</span>
+    </div>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h2 {
+            font-size: 2em;
+        }
+        h3 {
+            font-size: 1.5em;
+        }
+        a {
+            color: #1E90FF;
+            text-decoration: none;
+        }
+        .timestamp {
+            font-size: 0.9em;
+            color: #A9A9A9;
+        }
+        .reaction {
+            background-color: #F0F0F0;
+            padding: 2px 6px;
+            border-radius: 4px;
+            margin-right: 5px;
+        }
+    </style>
+</body>
+</html>
