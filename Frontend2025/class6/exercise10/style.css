@@ -5,10 +5,11 @@
 }
 
 body{
-    background-color: #151515;
+    background-color: #1e1e1e;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px;
 }
 
 article{
@@ -21,6 +22,7 @@ main{
     background-color: #1e1e1e;
     width: 500px;
     border-radius: 30px;
+    box-shadow: #00000033 0px 1px 10px;
 }
 
 img{
@@ -36,6 +38,7 @@ img{
     flex-direction: column;
     gap: 20px;
     padding: 30px;
+    border-radius: 0px 0px 30px 30px;
 }
 
 h1{
